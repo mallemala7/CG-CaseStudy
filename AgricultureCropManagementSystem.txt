@@ -1,0 +1,27 @@
+Stakeholders:
+	Farmers
+	Dealers
+Flow:
+Farmer:
+Login--->Profile--->PublishCropDetails
+	    |
+	    ---->Add BankAccount
+Dealer:
+Login--->Profile--->PurchaseCrop
+	    |
+	    ---->Add BankAccount
+	    |
+	    ---->Subscribe for Crop Availability
+Tables:
+
+User:
+Name,Username(email),password,phone.no
+
+Address:
+Username,D.no,Street,City,State,ZipCode
+
+OrderDetails:
+Username,orderId,cropName,quantity,totalPrice
+
+BankDetails:
+Username,BankName,Acc.No,IFSC_code
