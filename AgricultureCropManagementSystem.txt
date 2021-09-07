@@ -1,6 +1,7 @@
 Stakeholders:
 	Farmers
 	Dealers
+	Admin
 Flow:
 Farmer:
 Login--->Profile--->PublishCropDetails
